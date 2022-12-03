@@ -1,0 +1,163 @@
+form{
+  font-family: 'Quicksand', sans-serif;
+
+}
+.navigation{
+width:97%;
+margin: 1rem;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+position: sticky;
+z-index:100;
+position:relative
+}
+.navigation .image{
+  width:5vw;
+
+}
+.navigation .menu{
+  font-weight: 400;
+  padding-left: 1rem;
+  font-size: 2.7vmin;
+}
+.navigation .bag{
+ 
+  padding-right: 2rem;
+  font-size: 2vmin;
+}
+.login{
+  width:41.5%;
+  float:left;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  z-index:100;
+  position:relative;
+  left:7rem;
+  font-size: 14px;
+  
+}
+.login h2{
+  font-size: 5vmin;
+  margin-left:4px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+ .line{
+  width:90px;
+  height:5px;
+  border:none;
+  background: rgb(252, 79, 79);
+  margin-top:0.1rem;
+  margin-bottom: 2rem;
+  margin-left:1px;
+  
+
+}
+label{
+  padding-bottom: 0.8rem;
+  color: rgb(86, 138, 147);
+  font-weight: 600;
+  font-size: 1.8vmin;
+
+}
+  input{
+  width:30vw;
+  height: 5vh;
+  margin-bottom:2rem;
+  border:1.5px solid rgb(179, 198, 211);
+  display: flex;
+  outline: 0;
+}
+  .submit{
+  width: 14.7vw;
+  height: 50px;
+  background: white;
+  text-align: center;
+  z-index: 100;
+  border:2.5px solid  rgb(105, 165, 187);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1.8vmin;
+  color:rgb(60, 59, 59);
+}
+.border{
+  width: 14.3vw;
+  height:6.2vh;
+  background: transparent;
+  text-align: center;
+  z-index: 0;
+  border:2.5px solid  rgb(105, 165, 187);
+  margin-top:-2.8rem;
+  margin-left:0.3rem;
+
+}
+.login .password{
+  color:rgb(246, 84, 84);
+  font-size: 12px;
+  font-weight: bold;
+}
+.container{
+  width:50vw;
+  height:110vh;
+  float:right;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  align-items: center;
+  position:relative;
+  left:0.5rem;
+  font-size: 14px;
+  background-color:rgb(211, 234, 249);
+  margin-top: -12rem;
+  z-index:0;
+  
+}
+.details{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  z-index:100;
+  margin-top:11rem;
+  margin-left: 6rem;
+  width:40vw;
+  
+  
+ 
+}
+.details h2{
+  font-size: 5vmin;
+  font-family: 'Lexend Deca', sans-serif;
+  
+}
+.details p{
+  
+  line-height: 22px; 
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2vmin;
+  color:rgb(60, 59, 59);
+}
+.details i{
+  color:rgb(246, 84, 84);
+  margin-right: 0.6rem;
+  font-size: 16px;
+  padding-bottom: 1rem;
+}
+.details span{
+  margin-bottom: 3rem; 
+  font-size: 1.8vmin;
+  word-spacing: 2px;
+  font-weight: 600;
+  color:rgb(60, 59, 59);
+
+}
+.details .email-box{
+  width:260px;
+}
+.details #new-customer{
+  width:19vw;
+}
+#customer{
+  width:18.7vw;
+}
