@@ -161,3 +161,115 @@ label{
 #customer{
   width:18.7vw;
 }
+@media only screen and (max-width: 600px) {
+  
+ 
+  form{
+    width:70vw;
+   
+  }
+  .navigation{
+    width:100vw;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    top:3rem;
+    
+    }
+    .navigation .image{
+      width:10vw;
+    
+    }
+    .navigation .menu{
+      font-weight: 400;
+      padding-left: 1rem;
+      font-size: 3.2vmin;
+    }
+    .navigation .bag{
+     
+      padding-right: 2rem;
+      font-size: 3vmin;
+      
+    }
+    .login{
+      width:75vw;
+      left:4rem;
+      font-size: 5vmin;
+      top:7rem;
+      
+    }
+    .login h2{
+      font-size: 7vmin;
+     
+    }
+     .line{
+      width:15vw;
+      
+    
+    }
+    label{
+
+      font-size: 2.5vmin;
+      margin-bottom:0.4rem;
+    
+    }
+      input{
+      width:60vw;
+
+   
+    }
+      .submit{
+      width: 35vw;
+      font-size: 3vmin;
+    
+    }
+    .border{
+      width: 33.8vw;
+      margin-bottom:3rem;
+    
+    }
+    .login .password{
+       margin-top:1rem;
+    }
+    
+    .container{
+      width:95vw;
+      top:20rem;
+      left:7.8rem;
+      height:83vh;
+     
+    }
+    .details{
+    
+      width:95vw;
+      top:-8rem;
+    }
+    .details h2{
+      font-size: 7vmin;
+      
+    }
+    .details p{
+      font-size: 3vmin;
+    
+    }
+    .details i{
+     
+      margin-right: 0.6rem;
+      font-size: 3vmin;
+     
+    }
+    .details span{
+      margin-bottom: 3rem; 
+      font-size: 2.5vmin;
+    
+    
+    }
+    .details .email-box{
+      width:60vw;
+    }
+    .details #new-customer{
+      width:50vw;
+    }
+    #customer{
+      width:49vw;
+    }
+}
